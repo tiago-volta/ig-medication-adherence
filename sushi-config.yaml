@@ -7,16 +7,17 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: my-ig
-canonical: http://example.com/fhir/example
-url: http://example.com/fhir/example/ImplementationGuide/my-ig
-name: ExampleIG
-title: "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"
+id: mecication-adherence
+canonical: http://openhie.com/fhir/medication-adherence
+url: http://openhie.com/fhir/MedicationAdherence/ImplementationGuide/medication-adherence
+name: medication-adherence
+title: "HL7 FHIR Implementation Guide: Medication Adherence"
 description: Example IG exercises many of the fields in a SUSHI configuration.
 status: active
 license: CC0-1.0
-date: 2020-02-26
+date: 2025-07-16
 version: 1.0.0
+
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here, but the current tooling 
@@ -43,12 +44,11 @@ publisher:
 
 # ContactDetail is required by the template.
 contact:
-  - name: Bob Smith
+  - name: Tiago Volta
     telecom:
       - system: email
-        value: bobsmith@example.com
+        value: tiagovolta2@gmail.com
         use: work
-
 # The jurisdiction can be a single item or a list. The FHIR Shorthand
 # code syntax can be used here.
 
