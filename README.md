@@ -31,14 +31,4 @@ This IG includes:
   - A patient missing doses due to forgetfulness  
   - A patient experiencing adverse events linked to non-adherence  
 
-- **Narrative**
-  - Clinical stories illustrating realistic use cases  
-
-## Author
-
-Developed by a Computer Engineering student as part of a journey to learn more about FHIR interoperability and IG authoring.
-
----
-
-Thanks for visiting this repository! Suggestions and feedback are very welcome.
 
