@@ -16,11 +16,8 @@ This IG includes:
 
 - **Profiles**
   - `MedicationRequest` for prescriptions  
-  - `MedicationStatement` / `MedicationAdministration` for recording medication usage  
-  - `Observation` for adherence tracking  
-
-- **Extensions**
-  - Example: reason for non-adherence (e.g., side effects, forgetfulness, cost issues)  
+  - `MedicationAdministration` for recording medication usage  
+  - `Observation` for adherence tracking   
 
 - **Terminologies**
   - ValueSets for adherence reasons  
