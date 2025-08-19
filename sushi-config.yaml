@@ -7,7 +7,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: mecication-adherence
+id: medication-adherence
 canonical: http://openhie.com/fhir/medication-adherence
 url: http://openhie.com/fhir/MedicationAdherence/ImplementationGuide/medication-adherence
 name: medication-adherence
