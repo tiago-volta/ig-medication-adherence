@@ -2,7 +2,7 @@
 
 This repository contains an experimental **FHIR Implementation Guide (IG)** focused on modeling **medication adherence and monitoring**.  
 
-It was developed as a **learning project**, to go beyond the basics of FHIR Shorthand (FSH) and SUSHI, by exploring more advanced IG features such as profiles, extensions, value sets, and multiple patient scenarios.
+It is being developed as a **learning project**, to go beyond the basics of FHIR Shorthand (FSH) and SUSHI, by exploring more advanced IG features such as profiles, extensions, value sets, and multiple patient scenarios.
 
 ## Purpose
 
