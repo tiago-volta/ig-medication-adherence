@@ -1,0 +1,5 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-medication-adherence.json	3539	-	0	0	0	0	0	0	12	146	0	0	0	0	0	0	0	1	0	0	84	57	0	0	0	3	0	1
+fsh-generated/resources/StructureDefinition-adherence-observation.json	1149	18	0	74	1	0	1	0	1	78	0	0	0	0	0	0	0	1	0	0	184	731	0	0	0	7	0	0
+fsh-generated/resources/StructureDefinition-medication-administration-adherence.json	1014	14	0	53	0	0	0	0	0	44	0	0	1	0	0	0	0	1	0	0	120	315	0	0	0	12	0	1
+fsh-generated/resources/StructureDefinition-medication-request-adherence.json	1046	12	0	48	0	0	0	0	0	52	0	0	0	0	0	0	0	0	0	0	139	296	0	0	0	12	0	1

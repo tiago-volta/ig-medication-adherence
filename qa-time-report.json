@@ -1,0 +1,250 @@
+{
+  "date" : "Wed, 20 Aug, 2025 19:21:59 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-medication-adherence.json",
+      "size" : 3539,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 35,
+          "length" : 26
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 36,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 36,
+          "length" : 146
+        },
+        {
+          "activity" : "validate",
+          "start" : 39,
+          "length" : 2764
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 42,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 42,
+          "length" : 84
+        },
+        {
+          "activity" : "generate2",
+          "start" : 45,
+          "length" : 57
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 53,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 58,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-adherence-observation.json",
+      "size" : 1149,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 35,
+          "length" : 18
+        },
+        {
+          "activity" : "load",
+          "start" : 35,
+          "length" : 17
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 35,
+          "length" : 74
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 36,
+          "length" : 1
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 36,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 36,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 37,
+          "length" : 78
+        },
+        {
+          "activity" : "validate",
+          "start" : 37,
+          "length" : 1941
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 42,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 42,
+          "length" : 184
+        },
+        {
+          "activity" : "generate2",
+          "start" : 45,
+          "length" : 731
+        },
+        {
+          "activity" : "generate2",
+          "start" : 46,
+          "length" : 1492
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 53,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-medication-administration-adherence.json",
+      "size" : 1014,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 35,
+          "length" : 14
+        },
+        {
+          "activity" : "load",
+          "start" : 35,
+          "length" : 15
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 35,
+          "length" : 53
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 37,
+          "length" : 44
+        },
+        {
+          "activity" : "validate",
+          "start" : 39,
+          "length" : 261
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 42,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 42,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 42,
+          "length" : 120
+        },
+        {
+          "activity" : "generate2",
+          "start" : 46,
+          "length" : 315
+        },
+        {
+          "activity" : "generate2",
+          "start" : 48,
+          "length" : 328
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 53,
+          "length" : 12
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 58,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-medication-request-adherence.json",
+      "size" : 1046,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 35,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 35,
+          "length" : 15
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 35,
+          "length" : 48
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 37,
+          "length" : 52
+        },
+        {
+          "activity" : "validate",
+          "start" : 39,
+          "length" : 241
+        },
+        {
+          "activity" : "generate1",
+          "start" : 42,
+          "length" : 139
+        },
+        {
+          "activity" : "generate2",
+          "start" : 46,
+          "length" : 296
+        },
+        {
+          "activity" : "generate2",
+          "start" : 48,
+          "length" : 360
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 53,
+          "length" : 12
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 58,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}

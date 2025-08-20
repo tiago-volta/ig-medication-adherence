@@ -1,0 +1,67 @@
+MedicationAdherence : Validation Results
+=========================================
+
+err = 6, warn = 7, info = 1
+$--
+Generated $--. FHIR version $-- for medication-adherence#$-- (canonical = http://openhie.com/fhir/MedicationAdherence)
+ Build Errors : 36 / 4 / 0
+ /work/fsh-generated/resources/ImplementationGuide-medication-adherence : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-adherence-observation : 2 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-medication-administration-adherence : 2 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-medication-request-adherence : 2 / 1 / 1
+</table>
+== n/a ==
+ERROR: StructureDefinition-adherence-observation-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-adherence-observation-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-adherence-observation-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-adherence-observation-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-adherence-observation.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-adherence-observation.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-adherence-observation.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 126, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-adherence-observation.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 126, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-adherence-observation.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 126, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-administration-adherence-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-administration-adherence-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-administration-adherence-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-administration-adherence-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-administration-adherence.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-administration-adherence.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-administration-adherence.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 126, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-administration-adherence.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 126, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-administration-adherence.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 126, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-request-adherence-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-request-adherence-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-request-adherence-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-request-adherence-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-request-adherence.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-request-adherence.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 122, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-request-adherence.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 126, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-request-adherence.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 126, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: StructureDefinition-medication-request-adherence.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 126, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/nav/div/div/ul/li/a at Line 118, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: changes.html#/html/body/div/div/nav/div/div/ul/li/a at Line 118, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/nav/div/div/ul/li/a at Line 118, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 179, column 7: The link 'definitions.xml.zip' for "XML" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 184, column 7: The link 'definitions.json.zip' for "JSON" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 193, column 7: The link 'examples.xml.zip' for "XML" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 198, column 7: The link 'examples.json.zip' for "JSON" cannot be resolved
+ERROR: index.html#/html/body/div/div/nav/div/div/ul/li/a at Line 118, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: toc.html#/html/body/div/div/nav/div/div/ul/li/a at Line 118, column 6: The link 'contents.html' for "Contents" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-medication-adherence.json ==
+== fsh-generated/resources/StructureDefinition-adherence-observation.json ==
+ERROR: StructureDefinition.where(url = 'http://openhie.com/fhir/medication-adherence/StructureDefinition/adherence-observation'): Conformance resource /work/fsh-generated/resources/StructureDefinition-adherence-observation.json - the canonical URL (http://openhie.com/fhir/MedicationAdherence/StructureDefinition/adherence-observation) does not match the URL (http://openhie.com/fhir/medication-adherence/StructureDefinition/adherence-observation)
+INFORMATION: StructureDefinition/adherence-observation: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition.where(url = 'http://openhie.com/fhir/medication-adherence/StructureDefinition/adherence-observation'): The Implementation Guide contains no examples for this profile
+ERROR: /work/fsh-generated/resources/StructureDefinition-adherence-observation: URL Mismatch http://openhie.com/fhir/MedicationAdherence/StructureDefinition/adherence-observation vs http://openhie.com/fhir/medication-adherence/StructureDefinition/adherence-observation
+== fsh-generated/resources/StructureDefinition-medication-administration-adherence.json ==
+ERROR: StructureDefinition.where(url = 'http://openhie.com/fhir/medication-adherence/StructureDefinition/medication-administration-adherence'): Conformance resource /work/fsh-generated/resources/StructureDefinition-medication-administration-adherence.json - the canonical URL (http://openhie.com/fhir/MedicationAdherence/StructureDefinition/medication-administration-adherence) does not match the URL (http://openhie.com/fhir/medication-adherence/StructureDefinition/medication-administration-adherence)
+WARNING: StructureDefinition.where(url = 'http://openhie.com/fhir/medication-adherence/StructureDefinition/medication-administration-adherence'): The Implementation Guide contains no examples for this profile
+ERROR: /work/fsh-generated/resources/StructureDefinition-medication-administration-adherence: URL Mismatch http://openhie.com/fhir/MedicationAdherence/StructureDefinition/medication-administration-adherence vs http://openhie.com/fhir/medication-adherence/StructureDefinition/medication-administration-adherence
+== fsh-generated/resources/StructureDefinition-medication-request-adherence.json ==
+ERROR: StructureDefinition.where(url = 'http://openhie.com/fhir/medication-adherence/StructureDefinition/medication-request-adherence'): Conformance resource /work/fsh-generated/resources/StructureDefinition-medication-request-adherence.json - the canonical URL (http://openhie.com/fhir/MedicationAdherence/StructureDefinition/medication-request-adherence) does not match the URL (http://openhie.com/fhir/medication-adherence/StructureDefinition/medication-request-adherence)
+WARNING: StructureDefinition.where(url = 'http://openhie.com/fhir/medication-adherence/StructureDefinition/medication-request-adherence'): The Implementation Guide contains no examples for this profile
+ERROR: /work/fsh-generated/resources/StructureDefinition-medication-request-adherence: URL Mismatch http://openhie.com/fhir/MedicationAdherence/StructureDefinition/medication-request-adherence vs http://openhie.com/fhir/medication-adherence/StructureDefinition/medication-request-adherence

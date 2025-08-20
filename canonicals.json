@@ -1,0 +1,30 @@
+[
+  {
+    "id" : "medication-adherence",
+    "type" : "ImplementationGuide",
+    "url" : "http://openhie.com/fhir/MedicationAdherence/ImplementationGuide/medication-adherence",
+    "version" : "1.0.0",
+    "name" : "MedicationAdherence"
+  },
+  {
+    "id" : "adherence-observation",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.com/fhir/medication-adherence/StructureDefinition/adherence-observation",
+    "version" : "1.0.0",
+    "name" : "AdherenceObservation"
+  },
+  {
+    "id" : "medication-administration-adherence",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.com/fhir/medication-adherence/StructureDefinition/medication-administration-adherence",
+    "version" : "1.0.0",
+    "name" : "MedicationAdministrationAdherence"
+  },
+  {
+    "id" : "medication-request-adherence",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.com/fhir/medication-adherence/StructureDefinition/medication-request-adherence",
+    "version" : "1.0.0",
+    "name" : "MedicationRequestAdherence"
+  }
+]
