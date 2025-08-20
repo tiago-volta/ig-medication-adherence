@@ -1,7 +1,7 @@
 Profile: MedicationAdministrationAdherence
 Parent: MedicationAdministration
 Id: medication-administration-adherence
-Title: "Medication Administration for Adherence IG"
+Title: "Medication Administration"
 Description: "A profile of MedicationAdministration focused on recording actual administration of medication to track adherence."
 
 * status 1..1
@@ -9,3 +9,8 @@ Description: "A profile of MedicationAdministration focused on recording actual 
 * subject 1..1
 * effective[x] 1..1
 * performer 1..1
+
+*dosage 1..1
+*dosage.text 0..1
+
+*notes MS
