@@ -10,7 +10,6 @@ Description: "A profile of MedicationAdministration focused on recording actual 
 * effective[x] 1..1
 * performer 1..1
 
-*dosage 1..1
-*dosage.text 0..1
+* dosage 1..1
+* dosage.text 0..1
 
-*notes MS
