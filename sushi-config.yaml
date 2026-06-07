@@ -8,15 +8,20 @@
 
 
 id: medication-adherence
-canonical: http://openhie.com/fhir/medication-adherence
-url: http://openhie.com/fhir/MedicationAdherence/ImplementationGuide/medication-adherence
+canonical: https://tiago-volta.github.io/ig-medication-adherence
+url: https://tiago-volta.github.io/ig-medication-adherence/ImplementationGuide/medication-adherence
 name: MedicationAdherence
-title: "HL7 FHIR Implementation Guide: Medication Adherence"
-description: Example IG exercises many of the fields in a SUSHI configuration.
-status: active
+title: "Medication Adherence — Learning Implementation Guide"
+description: >-
+  Experimental FHIR R4 Implementation Guide for learning SUSHI, FSH, and IG Publisher.
+  Models medication prescriptions, administrations, and adherence observations with
+  illustrative terminology and three patient scenarios. Not intended for clinical production use.
+status: draft
+experimental: true
 license: CC0-1.0
 date: 2025-07-16
-version: 1.0.0
+version: 0.2.0
+copyright: "CC0-1.0. Example terminology is illustrative only."
 
 # Add parameters section
 parameters:
@@ -39,17 +44,13 @@ fhirVersion: 4.0.1
 # camelcase, but if authors use the formal parameter names, SUSHI
 # will recognize them as well. In either case, they'll be copied
 # to the IG JSON using the formal names.
-copyrightYear: 2021+
-releaseLabel: STU1
+copyrightYear: 2025+
+releaseLabel: ci-build
 
-# The publisher can be a single item or a list, each with a name and
-# optional url and/or email. The first publisher's name will be used
-# as IG.publisher.  The contact details and/or additional publishers
-# will be translated into IG.contact values.
 publisher:
-  name: My Organization 
-  url: http://example.com/committees
-  email: my-group@example.com
+  name: Tiago Volta
+  url: https://github.com/tiago-volta
+  email: tiagovolta2@gmail.com
 
 # ContactDetail is required by the template.
 contact:
@@ -61,8 +62,10 @@ contact:
 # The jurisdiction can be a single item or a list. The FHIR Shorthand
 # code syntax can be used here.
 
-#jurisdiction: urn:iso:std:iso:3166#US "United States of America"
-jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
+jurisdiction:
+  - urn:iso:std:iso:3166#PT "Portugal"
+  - urn:iso:std:iso:3166#ES "Spain"
+  - urn:iso:std:iso:3166#EU "European Union"
 
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
@@ -138,7 +141,7 @@ jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 pages:
-  index.xml:
+  index.md:
     title: Home
 #  guidance.md:
   changes.xml:
