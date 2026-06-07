@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication,0.2.0,draft,,AdherenceMedicationCS,Example Medication Codes (Illustrative),"Local medication codes used in example instances. Not mapped to SNOMED or ATC.",
+https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code,0.2.0,draft,,AdherenceObservationCodeCS,Adherence Observation Codes (Illustrative),"Local code system for adherence-related observations. For learning and demonstration only.",
+https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason,0.2.0,draft,,AdherenceReasonCS,Non-Adherence Reason Codes (Illustrative),"Local code system for common reasons of medication non-adherence. For learning and demonstration only; not a clinical standard.",

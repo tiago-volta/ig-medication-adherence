@@ -1,0 +1,20 @@
+{
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/ImplementationGuide/medication-adherence",
+  "name" : "MedicationAdherence",
+  "title" : "Medication Adherence — Learning Implementation Guide",
+  "description" : "Experimental FHIR R4 Implementation Guide for learning SUSHI, FSH, and IG Publisher. Models medication prescriptions, administrations, and adherence observations with illustrative terminology and three patient scenarios. Not intended for clinical production use.",
+  "ig-date" : "2025-07-16",
+  "status" : "draft",
+  "package-id" : "medication-adherence",
+  "ig-ver" : "0.2.0",
+  "date" : "Sun, 07 Jun, 2026 14:22:39 +0000",
+  "dateISO8601" : "2026-06-07T14:22:39+00:00",
+  "errs" : 16,
+  "warnings" : 31,
+  "hints" : 11,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1319394200
+}

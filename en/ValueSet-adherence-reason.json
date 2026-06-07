@@ -1,0 +1,63 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "adherence-reason",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet adherence-reason</b></p><a name=\"adherence-reason\"> </a><a name=\"hcadherence-reason\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-adherence-reason.html\"><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.2.0</span></li></ul></div>"
+  },
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-reason",
+  "version" : "0.2.0",
+  "name" : "AdherenceReasonVS",
+  "title" : "Non-Adherence Reasons",
+  "status" : "draft",
+  "date" : "2026-06-07T14:22:39+00:00",
+  "publisher" : "Tiago Volta",
+  "contact" : [{
+    "name" : "Tiago Volta",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/tiago-volta"
+    },
+    {
+      "system" : "email",
+      "value" : "tiagovolta2@gmail.com"
+    }]
+  },
+  {
+    "name" : "Tiago Volta",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "tiagovolta2@gmail.com",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Value set of illustrative reasons for missed or refused medication doses.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "PT",
+      "display" : "Portugal"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "EU",
+      "display" : "European Union"
+    }]
+  }],
+  "copyright" : "CC0-1.0. Example terminology is illustrative only.",
+  "compose" : {
+    "include" : [{
+      "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason"
+    }]
+  }
+}

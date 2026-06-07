@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="patient-ae-ana"/>
+  <meta>
+    <profile value="https://tiago-volta.github.io/ig-medication-adherence/StructureDefinition/patient-adherence"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient patient-ae-ana</b></p><a name="patient-ae-ana"> </a><a name="hcpatient-ae-ana"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-patient-adherence.html">Patient for Adherence Tracking</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Ana López  Female, DoB: 1972-07-22 ( https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/patient-id#patient-ae-ana)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Record is active">Active:</td><td colspan="3">true</td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/patient-id"/>
+    <value value="patient-ae-ana"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <family value="López"/>
+    <given value="Ana"/>
+  </name>
+  <gender value="female"/>
+  <birthDate value="1972-07-22"/>
+</Patient>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="obs-adherence-carlos"/>
+  <meta>
+    <profile value="https://tiago-volta.github.io/ig-medication-adherence/StructureDefinition/adherence-observation"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation obs-adherence-carlos</b></p><a name="obs-adherence-carlos"> </a><a name="hcobs-adherence-carlos"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-adherence-observation.html">Observation of Medication Adherence</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code adherence-rate}">Medication adherence rate</span></p><p><b>subject</b>: <a href="Patient-patient-forgetful-carlos.html">Carlos Pereira  Male, DoB: 1958-11-04 ( https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/patient-id#patient-forgetful-carlos)</a></p><p><b>focus</b>: <a href="MedicationRequest-rx-lisinopril-carlos.html">MedicationRequest: status = active; intent = order; medication[x] = Lisinopril 10 mg tablet; authoredOn = 2025-04-15; reasonCode = </a></p><p><b>effective</b>: 2025-06-01 --&gt; 2025-06-07</p><p><b>value</b>: 75 %<span style="background: LightGoldenRodYellow"> (Details: UCUM  code% = '%')</span></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code"/>
+      <code value="adherence-rate"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/patient-forgetful-carlos"/>
+  </subject>
+  <focus>
+    <reference value="MedicationRequest/rx-lisinopril-carlos"/>
+  </focus>
+  <effectivePeriod>
+    <start value="2025-06-01"/>
+    <end value="2025-06-07"/>
+  </effectivePeriod>
+  <valueQuantity>
+    <value value="75"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="%"/>
+  </valueQuantity>
+</Observation>

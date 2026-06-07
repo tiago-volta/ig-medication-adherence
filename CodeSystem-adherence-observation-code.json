@@ -1,0 +1,70 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "adherence-observation-code",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem adherence-observation-code</b></p><a name=\"adherence-observation-code\"> </a><a name=\"hcadherence-observation-code\"> </a><p>This case-sensitive code system <code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">adherence-rate<a name=\"adherence-observation-code-adherence-rate\"> </a></td><td>Medication adherence rate</td><td>Percentage of prescribed doses taken in a measurement period.</td></tr><tr><td style=\"white-space:nowrap\">adherence-assessment<a name=\"adherence-observation-code-adherence-assessment\"> </a></td><td>Adherence assessment</td><td>Coded summary of adherence status or primary non-adherence reason.</td></tr></table></div>"
+  },
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code",
+  "version" : "0.2.0",
+  "name" : "AdherenceObservationCodeCS",
+  "title" : "Adherence Observation Codes (Illustrative)",
+  "status" : "draft",
+  "date" : "2026-06-07T14:22:39+00:00",
+  "publisher" : "Tiago Volta",
+  "contact" : [{
+    "name" : "Tiago Volta",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/tiago-volta"
+    },
+    {
+      "system" : "email",
+      "value" : "tiagovolta2@gmail.com"
+    }]
+  },
+  {
+    "name" : "Tiago Volta",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "tiagovolta2@gmail.com",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Local code system for adherence-related observations. For learning and demonstration only.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "PT",
+      "display" : "Portugal"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "EU",
+      "display" : "European Union"
+    }]
+  }],
+  "copyright" : "CC0-1.0. Example terminology is illustrative only.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "adherence-rate",
+    "display" : "Medication adherence rate",
+    "definition" : "Percentage of prescribed doses taken in a measurement period."
+  },
+  {
+    "code" : "adherence-assessment",
+    "display" : "Adherence assessment",
+    "definition" : "Coded summary of adherence status or primary non-adherence reason."
+  }]
+}

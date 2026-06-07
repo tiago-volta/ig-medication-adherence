@@ -1,0 +1,23 @@
+{
+  "resourceType" : "Patient",
+  "id" : "patient-ae-ana",
+  "meta" : {
+    "profile" : ["https://tiago-volta.github.io/ig-medication-adherence/StructureDefinition/patient-adherence"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-ae-ana</b></p><a name=\"patient-ae-ana\"> </a><a name=\"hcpatient-ae-ana\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-patient-adherence.html\">Patient for Adherence Tracking</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Ana López  Female, DoB: 1972-07-22 ( https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/patient-id#patient-ae-ana)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr></table></div>"
+  },
+  "identifier" : [{
+    "system" : "https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/patient-id",
+    "value" : "patient-ae-ana"
+  }],
+  "active" : true,
+  "name" : [{
+    "family" : "López",
+    "given" : ["Ana"]
+  }],
+  "gender" : "female",
+  "birthDate" : "1972-07-22"
+}

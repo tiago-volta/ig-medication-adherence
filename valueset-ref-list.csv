@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-medication,0.2.0,draft,,AdherenceMedicationVS,Example Medications,"Illustrative medications referenced in the example instances.",,"Internal"
+https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-observation-code,0.2.0,draft,,AdherenceObservationCodeVS,Adherence Observation Codes,"Codes for observations that measure or assess medication adherence.","StructureDefinition/adherence-observation","Internal"
+https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-reason,0.2.0,draft,,AdherenceReasonVS,Non-Adherence Reasons,"Value set of illustrative reasons for missed or refused medication doses.","StructureDefinition/medication-administration-adherence","Internal"

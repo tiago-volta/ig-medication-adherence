@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="patient-forgetful-carlos"/>
+  <meta>
+    <profile value="https://tiago-volta.github.io/ig-medication-adherence/StructureDefinition/patient-adherence"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient patient-forgetful-carlos</b></p><a name="patient-forgetful-carlos"> </a><a name="hcpatient-forgetful-carlos"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-patient-adherence.html">Patient for Adherence Tracking</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Carlos Pereira  Male, DoB: 1958-11-04 ( https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/patient-id#patient-forgetful-carlos)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Record is active">Active:</td><td colspan="3">true</td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/patient-id"/>
+    <value value="patient-forgetful-carlos"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <family value="Pereira"/>
+    <given value="Carlos"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="1958-11-04"/>
+</Patient>

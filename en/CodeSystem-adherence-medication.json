@@ -1,0 +1,76 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "adherence-medication",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem adherence-medication</b></p><a name=\"adherence-medication\"> </a><a name=\"hcadherence-medication\"> </a><p>This case-sensitive code system <code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">metformin<a name=\"adherence-medication-metformin\"> </a></td><td>Metformin 500 mg tablet</td><td>Example oral antidiabetic for adherence scenarios.</td></tr><tr><td style=\"white-space:nowrap\">lisinopril<a name=\"adherence-medication-lisinopril\"> </a></td><td>Lisinopril 10 mg tablet</td><td>Example antihypertensive for adherence scenarios.</td></tr><tr><td style=\"white-space:nowrap\">ibuprofen<a name=\"adherence-medication-ibuprofen\"> </a></td><td>Ibuprofen 400 mg tablet</td><td>Example NSAID for adverse-event adherence scenarios.</td></tr></table></div>"
+  },
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication",
+  "version" : "0.2.0",
+  "name" : "AdherenceMedicationCS",
+  "title" : "Example Medication Codes (Illustrative)",
+  "status" : "draft",
+  "date" : "2026-06-07T14:22:39+00:00",
+  "publisher" : "Tiago Volta",
+  "contact" : [{
+    "name" : "Tiago Volta",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/tiago-volta"
+    },
+    {
+      "system" : "email",
+      "value" : "tiagovolta2@gmail.com"
+    }]
+  },
+  {
+    "name" : "Tiago Volta",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "tiagovolta2@gmail.com",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Local medication codes used in example instances. Not mapped to SNOMED or ATC.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "PT",
+      "display" : "Portugal"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "EU",
+      "display" : "European Union"
+    }]
+  }],
+  "copyright" : "CC0-1.0. Example terminology is illustrative only.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "metformin",
+    "display" : "Metformin 500 mg tablet",
+    "definition" : "Example oral antidiabetic for adherence scenarios."
+  },
+  {
+    "code" : "lisinopril",
+    "display" : "Lisinopril 10 mg tablet",
+    "definition" : "Example antihypertensive for adherence scenarios."
+  },
+  {
+    "code" : "ibuprofen",
+    "display" : "Ibuprofen 400 mg tablet",
+    "definition" : "Example NSAID for adverse-event adherence scenarios."
+  }]
+}

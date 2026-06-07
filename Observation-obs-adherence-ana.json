@@ -1,0 +1,31 @@
+{
+  "resourceType" : "Observation",
+  "id" : "obs-adherence-ana",
+  "meta" : {
+    "profile" : ["https://tiago-volta.github.io/ig-medication-adherence/StructureDefinition/adherence-observation"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation obs-adherence-ana</b></p><a name=\"obs-adherence-ana\"> </a><a name=\"hcobs-adherence-ana\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-adherence-observation.html\">Observation of Medication Adherence</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code adherence-assessment}\">Adherence assessment</span></p><p><b>subject</b>: <a href=\"Patient-patient-ae-ana.html\">Ana López  Female, DoB: 1972-07-22 ( https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/patient-id#patient-ae-ana)</a></p><p><b>focus</b>: <a href=\"MedicationRequest-rx-ibuprofen-ana.html\">MedicationRequest: status = active; intent = order; medication[x] = Ibuprofen 400 mg tablet; authoredOn = 2025-05-20; reasonCode = </a></p><p><b>effective</b>: 2025-06-05</p><p><b>value</b>: <span title=\"Codes:{https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason adverse-effects}\">Adverse effects</span></p></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code",
+      "code" : "adherence-assessment"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/patient-ae-ana"
+  },
+  "focus" : [{
+    "reference" : "MedicationRequest/rx-ibuprofen-ana"
+  }],
+  "effectiveDateTime" : "2025-06-05",
+  "valueCodeableConcept" : {
+    "coding" : [{
+      "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+      "code" : "adverse-effects"
+    }]
+  }
+}

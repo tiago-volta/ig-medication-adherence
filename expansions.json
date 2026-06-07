@@ -1,0 +1,496 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "7fcd769c-e77e-4c78-8431-121e3b1e4e3f",
+  "meta" : {
+    "lastUpdated" : "2026-06-07T14:22:39.763+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-medication",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-adherence-medication.html\">codesystem Example Medication Codes (Illustrative) v0.2.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication|0.2.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication-metformin\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-medication.html#adherence-medication-metformin\">metformin</a></td><td>Metformin 500 mg tablet</td><td>Example oral antidiabetic for adherence scenarios.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;metformin&quot;, &quot;display&quot;: &quot;Metformin 500 mg tablet&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;metformin&quot;&gt;&lt;display value=&quot;Metformin 500 mg tablet&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication-lisinopril\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-medication.html#adherence-medication-lisinopril\">lisinopril</a></td><td>Lisinopril 10 mg tablet</td><td>Example antihypertensive for adherence scenarios.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;lisinopril&quot;, &quot;display&quot;: &quot;Lisinopril 10 mg tablet&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;lisinopril&quot;&gt;&lt;display value=&quot;Lisinopril 10 mg tablet&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication-ibuprofen\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-medication.html#adherence-medication-ibuprofen\">ibuprofen</a></td><td>Ibuprofen 400 mg tablet</td><td>Example NSAID for adverse-event adherence scenarios.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;ibuprofen&quot;, &quot;display&quot;: &quot;Ibuprofen 400 mg tablet&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;ibuprofen&quot;&gt;&lt;display value=&quot;Ibuprofen 400 mg tablet&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-medication",
+      "version" : "0.2.0",
+      "name" : "AdherenceMedicationVS",
+      "title" : "Example Medications",
+      "status" : "draft",
+      "date" : "2026-06-07T14:22:39+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "PT",
+          "display" : "Portugal"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "ES",
+          "display" : "Spain"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "EU",
+          "display" : "European Union"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:2c65e93a-0f3c-43ac-8d49-3d3435efc1b0",
+        "timestamp" : "2026-06-07T14:24:41+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication|0.2.0"
+        }],
+        "contains" : [{
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication",
+          "code" : "metformin",
+          "display" : "Metformin 500 mg tablet"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication",
+          "code" : "lisinopril",
+          "display" : "Lisinopril 10 mg tablet"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication",
+          "code" : "ibuprofen",
+          "display" : "Ibuprofen 400 mg tablet"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-medication",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-adherence-medication.html\">codesystem Example Medication Codes (Illustrative) v0.2.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication|0.2.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication-metformin\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-medication.html#adherence-medication-metformin\">metformin</a></td><td>Metformin 500 mg tablet</td><td>Example oral antidiabetic for adherence scenarios.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;metformin&quot;, &quot;display&quot;: &quot;Metformin 500 mg tablet&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;metformin&quot;&gt;&lt;display value=&quot;Metformin 500 mg tablet&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication-lisinopril\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-medication.html#adherence-medication-lisinopril\">lisinopril</a></td><td>Lisinopril 10 mg tablet</td><td>Example antihypertensive for adherence scenarios.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;lisinopril&quot;, &quot;display&quot;: &quot;Lisinopril 10 mg tablet&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;lisinopril&quot;&gt;&lt;display value=&quot;Lisinopril 10 mg tablet&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication-ibuprofen\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-medication.html#adherence-medication-ibuprofen\">ibuprofen</a></td><td>Ibuprofen 400 mg tablet</td><td>Example NSAID for adverse-event adherence scenarios.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;ibuprofen&quot;, &quot;display&quot;: &quot;Ibuprofen 400 mg tablet&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;ibuprofen&quot;&gt;&lt;display value=&quot;Ibuprofen 400 mg tablet&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-medication",
+      "version" : "0.2.0",
+      "name" : "AdherenceMedicationVS",
+      "title" : "Example Medications",
+      "status" : "draft",
+      "date" : "2026-06-07T14:22:39+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "PT",
+          "display" : "Portugal"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "ES",
+          "display" : "Spain"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "EU",
+          "display" : "European Union"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:2c65e93a-0f3c-43ac-8d49-3d3435efc1b0",
+        "timestamp" : "2026-06-07T14:24:41+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication|0.2.0"
+        }],
+        "contains" : [{
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication",
+          "code" : "metformin",
+          "display" : "Metformin 500 mg tablet"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication",
+          "code" : "lisinopril",
+          "display" : "Lisinopril 10 mg tablet"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication",
+          "code" : "ibuprofen",
+          "display" : "Ibuprofen 400 mg tablet"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-observation-code",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-adherence-observation-code.html\">codesystem Adherence Observation Codes (Illustrative) v0.2.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code|0.2.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code-adherence-rate\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-observation-code.html#adherence-observation-code-adherence-rate\">adherence-rate</a></td><td>Medication adherence rate</td><td>Percentage of prescribed doses taken in a measurement period.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;adherence-rate&quot;, &quot;display&quot;: &quot;Medication adherence rate&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;adherence-rate&quot;&gt;&lt;display value=&quot;Medication adherence rate&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code-adherence-assessment\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-observation-code.html#adherence-observation-code-adherence-assessment\">adherence-assessment</a></td><td>Adherence assessment</td><td>Coded summary of adherence status or primary non-adherence reason.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;adherence-assessment&quot;, &quot;display&quot;: &quot;Adherence assessment&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;adherence-assessment&quot;&gt;&lt;display value=&quot;Adherence assessment&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-observation-code",
+      "version" : "0.2.0",
+      "name" : "AdherenceObservationCodeVS",
+      "title" : "Adherence Observation Codes",
+      "status" : "draft",
+      "date" : "2026-06-07T14:22:39+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "PT",
+          "display" : "Portugal"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "ES",
+          "display" : "Spain"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "EU",
+          "display" : "European Union"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:bea5eef0-25fd-49b2-b495-c9893f254d3d",
+        "timestamp" : "2026-06-07T14:24:39+00:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code|0.2.0"
+        }],
+        "contains" : [{
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code",
+          "code" : "adherence-rate",
+          "display" : "Medication adherence rate"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code",
+          "code" : "adherence-assessment",
+          "display" : "Adherence assessment"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-observation-code",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-adherence-observation-code.html\">codesystem Adherence Observation Codes (Illustrative) v0.2.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code|0.2.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code-adherence-rate\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-observation-code.html#adherence-observation-code-adherence-rate\">adherence-rate</a></td><td>Medication adherence rate</td><td>Percentage of prescribed doses taken in a measurement period.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;adherence-rate&quot;, &quot;display&quot;: &quot;Medication adherence rate&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;adherence-rate&quot;&gt;&lt;display value=&quot;Medication adherence rate&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code-adherence-assessment\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-observation-code.html#adherence-observation-code-adherence-assessment\">adherence-assessment</a></td><td>Adherence assessment</td><td>Coded summary of adherence status or primary non-adherence reason.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;adherence-assessment&quot;, &quot;display&quot;: &quot;Adherence assessment&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;adherence-assessment&quot;&gt;&lt;display value=&quot;Adherence assessment&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-observation-code",
+      "version" : "0.2.0",
+      "name" : "AdherenceObservationCodeVS",
+      "title" : "Adherence Observation Codes",
+      "status" : "draft",
+      "date" : "2026-06-07T14:22:39+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "PT",
+          "display" : "Portugal"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "ES",
+          "display" : "Spain"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "EU",
+          "display" : "European Union"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:bea5eef0-25fd-49b2-b495-c9893f254d3d",
+        "timestamp" : "2026-06-07T14:24:39+00:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code|0.2.0"
+        }],
+        "contains" : [{
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code",
+          "code" : "adherence-rate",
+          "display" : "Medication adherence rate"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code",
+          "code" : "adherence-assessment",
+          "display" : "Adherence assessment"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-reason",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-adherence-reason.html\">codesystem Non-Adherence Reason Codes (Illustrative) v0.2.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason|0.2.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason-forgot\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-reason.html#adherence-reason-forgot\">forgot</a></td><td>Forgot dose</td><td>Patient forgot to take the medication at the scheduled time.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;forgot&quot;, &quot;display&quot;: &quot;Forgot dose&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;forgot&quot;&gt;&lt;display value=&quot;Forgot dose&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason-adverse-effects\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-reason.html#adherence-reason-adverse-effects\">adverse-effects</a></td><td>Adverse effects</td><td>Patient stopped or skipped doses due to side effects.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;adverse-effects&quot;, &quot;display&quot;: &quot;Adverse effects&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;adverse-effects&quot;&gt;&lt;display value=&quot;Adverse effects&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason-cost\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-reason.html#adherence-reason-cost\">cost</a></td><td>Cost / affordability</td><td>Patient skipped doses due to medication cost.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;cost&quot;, &quot;display&quot;: &quot;Cost / affordability&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;cost&quot;&gt;&lt;display value=&quot;Cost / affordability&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason-felt-better\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-reason.html#adherence-reason-felt-better\">felt-better</a></td><td>Felt better</td><td>Patient stopped because symptoms improved.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;felt-better&quot;, &quot;display&quot;: &quot;Felt better&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;felt-better&quot;&gt;&lt;display value=&quot;Felt better&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason-complex-regimen\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-reason.html#adherence-reason-complex-regimen\">complex-regimen</a></td><td>Complex regimen</td><td>Regimen complexity led to missed doses.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;complex-regimen&quot;, &quot;display&quot;: &quot;Complex regimen&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;complex-regimen&quot;&gt;&lt;display value=&quot;Complex regimen&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason-other\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-reason.html#adherence-reason-other\">other</a></td><td>Other reason</td><td>Other or unspecified non-adherence reason.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other reason&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other reason&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-reason",
+      "version" : "0.2.0",
+      "name" : "AdherenceReasonVS",
+      "title" : "Non-Adherence Reasons",
+      "status" : "draft",
+      "date" : "2026-06-07T14:22:39+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "PT",
+          "display" : "Portugal"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "ES",
+          "display" : "Spain"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "EU",
+          "display" : "European Union"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:68950049-858f-47c8-bbe2-69f45a7b2f79",
+        "timestamp" : "2026-06-07T14:24:41+00:00",
+        "total" : 6,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason|0.2.0"
+        }],
+        "contains" : [{
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+          "code" : "forgot",
+          "display" : "Forgot dose"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+          "code" : "adverse-effects",
+          "display" : "Adverse effects"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+          "code" : "cost",
+          "display" : "Cost / affordability"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+          "code" : "felt-better",
+          "display" : "Felt better"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+          "code" : "complex-regimen",
+          "display" : "Complex regimen"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+          "code" : "other",
+          "display" : "Other reason"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-reason",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-adherence-reason.html\">codesystem Non-Adherence Reason Codes (Illustrative) v0.2.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason|0.2.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 6 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason-forgot\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-reason.html#adherence-reason-forgot\">forgot</a></td><td>Forgot dose</td><td>Patient forgot to take the medication at the scheduled time.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;forgot&quot;, &quot;display&quot;: &quot;Forgot dose&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;forgot&quot;&gt;&lt;display value=&quot;Forgot dose&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason-adverse-effects\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-reason.html#adherence-reason-adverse-effects\">adverse-effects</a></td><td>Adverse effects</td><td>Patient stopped or skipped doses due to side effects.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;adverse-effects&quot;, &quot;display&quot;: &quot;Adverse effects&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;adverse-effects&quot;&gt;&lt;display value=&quot;Adverse effects&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason-cost\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-reason.html#adherence-reason-cost\">cost</a></td><td>Cost / affordability</td><td>Patient skipped doses due to medication cost.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;cost&quot;, &quot;display&quot;: &quot;Cost / affordability&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;cost&quot;&gt;&lt;display value=&quot;Cost / affordability&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason-felt-better\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-reason.html#adherence-reason-felt-better\">felt-better</a></td><td>Felt better</td><td>Patient stopped because symptoms improved.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;felt-better&quot;, &quot;display&quot;: &quot;Felt better&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;felt-better&quot;&gt;&lt;display value=&quot;Felt better&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason-complex-regimen\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-reason.html#adherence-reason-complex-regimen\">complex-regimen</a></td><td>Complex regimen</td><td>Regimen complexity led to missed doses.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;complex-regimen&quot;, &quot;display&quot;: &quot;Complex regimen&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;complex-regimen&quot;&gt;&lt;display value=&quot;Complex regimen&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason-other\"> </a><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-adherence-reason.html#adherence-reason-other\">other</a></td><td>Other reason</td><td>Other or unspecified non-adherence reason.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;, &quot;version&quot;: &quot;0.2.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other reason&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason&quot;&gt;&lt;version value=&quot;0.2.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other reason&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-reason",
+      "version" : "0.2.0",
+      "name" : "AdherenceReasonVS",
+      "title" : "Non-Adherence Reasons",
+      "status" : "draft",
+      "date" : "2026-06-07T14:22:39+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "PT",
+          "display" : "Portugal"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "ES",
+          "display" : "Spain"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "EU",
+          "display" : "European Union"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:68950049-858f-47c8-bbe2-69f45a7b2f79",
+        "timestamp" : "2026-06-07T14:24:41+00:00",
+        "total" : 6,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason|0.2.0"
+        }],
+        "contains" : [{
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+          "code" : "forgot",
+          "display" : "Forgot dose"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+          "code" : "adverse-effects",
+          "display" : "Adverse effects"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+          "code" : "cost",
+          "display" : "Cost / affordability"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+          "code" : "felt-better",
+          "display" : "Felt better"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+          "code" : "complex-regimen",
+          "display" : "Complex regimen"
+        },
+        {
+          "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+          "code" : "other",
+          "display" : "Other reason"
+        }]
+      }
+    }
+  }]
+}

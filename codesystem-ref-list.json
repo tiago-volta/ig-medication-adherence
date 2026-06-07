@@ -1,0 +1,35 @@
+{
+  "codeSystems" : [{
+    "url" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "AdherenceMedicationCS",
+    "title" : "Example Medication Codes (Illustrative)",
+    "description" : "Local medication codes used in example instances. Not mapped to SNOMED or ATC.",
+    "uses" : {
+    },
+    "ValueSet-adherence-medication.html" : "Example Medications"
+  },
+  {
+    "url" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "AdherenceObservationCodeCS",
+    "title" : "Adherence Observation Codes (Illustrative)",
+    "description" : "Local code system for adherence-related observations. For learning and demonstration only.",
+    "uses" : {
+    },
+    "ValueSet-adherence-observation-code.html" : "Adherence Observation Codes"
+  },
+  {
+    "url" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "AdherenceReasonCS",
+    "title" : "Non-Adherence Reason Codes (Illustrative)",
+    "description" : "Local code system for common reasons of medication non-adherence. For learning and demonstration only; not a clinical standard.",
+    "uses" : {
+    },
+    "ValueSet-adherence-reason.html" : "Non-Adherence Reasons"
+  }]
+}

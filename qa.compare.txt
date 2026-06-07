@@ -1,0 +1,271 @@
+MedicationAdherence : Validation Results
+=========================================
+
+err = 16, warn = 31, info = 11
+$--
+Generated $--. FHIR version $-- for medication-adherence#$-- (canonical = https://tiago-volta.github.io/ig-medication-adherence)
+ Build Errors : 146 / 17 / 0
+ /work/fsh-generated/resources/AllergyIntolerance-allergy-aspirin-ana : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-adherence-medication : 1 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-adherence-observation-code : 1 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-adherence-reason : 1 / 1 / 1
+ /work/fsh-generated/resources/ImplementationGuide-medication-adherence : 1 / 0 / 1
+ /work/fsh-generated/resources/MedicationAdministration-admin-ana-skipped : 0 / 0 / 2
+ /work/fsh-generated/resources/MedicationAdministration-admin-ana-taken : 1 / 0 / 2
+ /work/fsh-generated/resources/MedicationAdministration-admin-carlos-missed : 0 / 0 / 2
+ /work/fsh-generated/resources/MedicationAdministration-admin-carlos-taken : 1 / 0 / 2
+ /work/fsh-generated/resources/MedicationAdministration-admin-maria-am : 1 / 0 / 2
+ /work/fsh-generated/resources/MedicationAdministration-admin-maria-pm : 1 / 0 / 2
+ /work/fsh-generated/resources/MedicationRequest-rx-ibuprofen-ana : 0 / 0 / 2
+ /work/fsh-generated/resources/MedicationRequest-rx-lisinopril-carlos : 0 / 0 / 2
+ /work/fsh-generated/resources/MedicationRequest-rx-metformin-maria : 0 / 1 / 2
+ /work/fsh-generated/resources/Observation-obs-adherence-ana : 0 / 1 / 2
+ /work/fsh-generated/resources/Observation-obs-adherence-carlos : 0 / 1 / 1
+ /work/fsh-generated/resources/Observation-obs-adherence-maria : 0 / 1 / 1
+ /work/fsh-generated/resources/Patient-patient-adherent-maria : 0 / 1 / 1
+ /work/fsh-generated/resources/Patient-patient-ae-ana : 0 / 1 / 1
+ /work/fsh-generated/resources/Patient-patient-forgetful-carlos : 0 / 1 / 1
+ /work/fsh-generated/resources/Practitioner-practitioner-example : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-adherence-observation : 1 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-medication-administration-adherence : 1 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-medication-request-adherence : 1 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-missed-dose-detail : 1 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-patient-adherence : 1 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-adherence-medication : 1 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-adherence-observation-code : 1 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-adherence-reason : 1 / 1 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/obs-adherence-ana.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AllergyIntolerance/allergy-aspirin-ana.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationAdministration/admin-ana-skipped.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationAdministration/admin-ana-taken.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/obs-adherence-carlos.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationAdministration/admin-carlos-missed.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationAdministration/admin-carlos-taken.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/rx-ibuprofen-ana.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/rx-lisinopril-carlos.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/obs-adherence-maria.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationAdministration/admin-maria-pm.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationAdministration/admin-maria-am.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/rx-metformin-maria.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: en/AllergyIntolerance-allergy-aspirin-ana.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/AllergyIntolerance-allergy-aspirin-ana.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/AllergyIntolerance-allergy-aspirin-ana.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/AllergyIntolerance-allergy-aspirin-ana.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/CodeSystem-adherence-medication-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/CodeSystem-adherence-medication.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/CodeSystem-adherence-medication.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/CodeSystem-adherence-medication.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/CodeSystem-adherence-medication.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/CodeSystem-adherence-observation-code-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/CodeSystem-adherence-observation-code.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/CodeSystem-adherence-observation-code.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/CodeSystem-adherence-observation-code.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/CodeSystem-adherence-observation-code.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/CodeSystem-adherence-reason-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/CodeSystem-adherence-reason.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/CodeSystem-adherence-reason.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/CodeSystem-adherence-reason.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/CodeSystem-adherence-reason.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-ana-skipped.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-ana-skipped.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-ana-skipped.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-ana-skipped.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-ana-taken.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-ana-taken.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-ana-taken.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-ana-taken.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-carlos-missed.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-carlos-missed.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-carlos-missed.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-carlos-missed.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-carlos-taken.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-carlos-taken.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-carlos-taken.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-carlos-taken.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-maria-am.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-maria-am.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-maria-am.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-maria-am.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-maria-pm.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-maria-pm.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-maria-pm.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationAdministration-admin-maria-pm.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationRequest-rx-ibuprofen-ana.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationRequest-rx-ibuprofen-ana.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationRequest-rx-ibuprofen-ana.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationRequest-rx-ibuprofen-ana.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationRequest-rx-lisinopril-carlos.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationRequest-rx-lisinopril-carlos.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationRequest-rx-lisinopril-carlos.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationRequest-rx-lisinopril-carlos.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationRequest-rx-metformin-maria.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationRequest-rx-metformin-maria.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationRequest-rx-metformin-maria.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/MedicationRequest-rx-metformin-maria.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Observation-obs-adherence-ana.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Observation-obs-adherence-ana.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Observation-obs-adherence-ana.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Observation-obs-adherence-ana.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Observation-obs-adherence-carlos.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Observation-obs-adherence-carlos.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Observation-obs-adherence-carlos.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Observation-obs-adherence-carlos.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Observation-obs-adherence-maria.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Observation-obs-adherence-maria.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Observation-obs-adherence-maria.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Observation-obs-adherence-maria.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Patient-patient-adherent-maria.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Patient-patient-adherent-maria.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Patient-patient-adherent-maria.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Patient-patient-adherent-maria.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Patient-patient-ae-ana.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Patient-patient-ae-ana.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Patient-patient-ae-ana.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Patient-patient-ae-ana.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Patient-patient-forgetful-carlos.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Patient-patient-forgetful-carlos.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Patient-patient-forgetful-carlos.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Patient-patient-forgetful-carlos.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Practitioner-practitioner-example.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Practitioner-practitioner-example.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Practitioner-practitioner-example.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/Practitioner-practitioner-example.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-adherence-observation-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-adherence-observation-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-adherence-observation-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-adherence-observation-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-adherence-observation.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-adherence-observation.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-adherence-observation.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 139, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-adherence-observation.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 139, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-administration-adherence-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-administration-adherence-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-administration-adherence-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-administration-adherence-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-administration-adherence.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-administration-adherence.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-administration-adherence.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 139, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-administration-adherence.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 139, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-request-adherence-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-request-adherence-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-request-adherence-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-request-adherence-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-request-adherence.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-request-adherence.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-request-adherence.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 139, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-medication-request-adherence.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 139, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-missed-dose-detail-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-missed-dose-detail-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-missed-dose-detail-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-missed-dose-detail.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-missed-dose-detail.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-missed-dose-detail.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 139, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-missed-dose-detail.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 139, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-patient-adherence-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-patient-adherence-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-patient-adherence-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-patient-adherence-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-patient-adherence.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-patient-adherence.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-patient-adherence.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 139, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/StructureDefinition-patient-adherence.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 139, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/ValueSet-adherence-medication-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/ValueSet-adherence-medication.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/ValueSet-adherence-medication.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/ValueSet-adherence-medication.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/ValueSet-adherence-medication.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/ValueSet-adherence-observation-code-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/ValueSet-adherence-observation-code.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/ValueSet-adherence-observation-code.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/ValueSet-adherence-observation-code.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/ValueSet-adherence-observation-code.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/ValueSet-adherence-reason-testing.html#/html/body/div/div/nav/div/div/ul/li/a at Line 135, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/ValueSet-adherence-reason.change.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/ValueSet-adherence-reason.html#/html/body/div/div/nav/div/div/ul/li/a at Line 134, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/ValueSet-adherence-reason.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/ValueSet-adherence-reason.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 137, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/artifacts.html#/html/body/div/div/nav/div/div/ul/li/a at Line 133, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/changes.html#/html/body/div/div/nav/div/div/ul/li/a at Line 133, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/nav/div/div/ul/li/a at Line 133, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 198, column 7: The link 'definitions.xml.zip' for "XML" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 203, column 7: The link 'definitions.json.zip' for "JSON" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 212, column 7: The link 'examples.xml.zip' for "XML" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 217, column 7: The link 'examples.json.zip' for "JSON" cannot be resolved
+ERROR: en/index.html#/html/body/div/div/nav/div/div/ul/li/a at Line 133, column 6: The link 'contents.html' for "Contents" cannot be resolved
+ERROR: en/toc.html#/html/body/div/div/nav/div/div/ul/li/a at Line 133, column 6: The link 'contents.html' for "Contents" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/AllergyIntolerance-allergy-aspirin-ana.json ==
+== fsh-generated/resources/CodeSystem-adherence-medication.json ==
+ERROR: CodeSystem/adherence-medication: CodeSystem.jurisdiction[2].coding[0].code: Unknown code 'EU' in the CodeSystem 'urn:iso:std:iso:3166' version '2018'
+WARNING: CodeSystem/adherence-medication: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-adherence-observation-code.json ==
+ERROR: CodeSystem/adherence-observation-code: CodeSystem.jurisdiction[2].coding[0].code: Unknown code 'EU' in the CodeSystem 'urn:iso:std:iso:3166' version '2018'
+WARNING: CodeSystem/adherence-observation-code: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-adherence-reason.json ==
+ERROR: CodeSystem/adherence-reason: CodeSystem.jurisdiction[2].coding[0].code: Unknown code 'EU' in the CodeSystem 'urn:iso:std:iso:3166' version '2018'
+WARNING: CodeSystem/adherence-reason: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-medication-adherence.json ==
+ERROR: ImplementationGuide/medication-adherence: ImplementationGuide.jurisdiction[2].coding[0].code: Unknown code 'EU' in the CodeSystem 'urn:iso:std:iso:3166' version '2018'
+== fsh-generated/resources/MedicationAdministration-admin-ana-skipped.json ==
+INFORMATION: MedicationAdministration/admin-ana-skipped: MedicationAdministration.medication.ofType(CodeableConcept): Reference to draft CodeSystem https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication|0.2.0
+== fsh-generated/resources/MedicationAdministration-admin-ana-taken.json ==
+INFORMATION: MedicationAdministration/admin-ana-taken: MedicationAdministration.medication.ofType(CodeableConcept): Reference to draft CodeSystem https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication|0.2.0
+ERROR: MedicationAdministration/admin-ana-taken: MedicationAdministration.dosage: Constraint failed: mad-1: 'SHALL have at least one of dosage.dose or dosage.rate[x] (dose.exists() or rate.exists())' (defined in http://hl7.org/fhir/StructureDefinition/MedicationAdministration)
+== fsh-generated/resources/MedicationAdministration-admin-carlos-missed.json ==
+INFORMATION: MedicationAdministration/admin-carlos-missed: MedicationAdministration.medication.ofType(CodeableConcept): Reference to draft CodeSystem https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication|0.2.0
+== fsh-generated/resources/MedicationAdministration-admin-carlos-taken.json ==
+INFORMATION: MedicationAdministration/admin-carlos-taken: MedicationAdministration.medication.ofType(CodeableConcept): Reference to draft CodeSystem https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication|0.2.0
+ERROR: MedicationAdministration/admin-carlos-taken: MedicationAdministration.dosage: Constraint failed: mad-1: 'SHALL have at least one of dosage.dose or dosage.rate[x] (dose.exists() or rate.exists())' (defined in http://hl7.org/fhir/StructureDefinition/MedicationAdministration)
+== fsh-generated/resources/MedicationAdministration-admin-maria-am.json ==
+INFORMATION: MedicationAdministration/admin-maria-am: MedicationAdministration.medication.ofType(CodeableConcept): Reference to draft CodeSystem https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication|0.2.0
+ERROR: MedicationAdministration/admin-maria-am: MedicationAdministration.dosage: Constraint failed: mad-1: 'SHALL have at least one of dosage.dose or dosage.rate[x] (dose.exists() or rate.exists())' (defined in http://hl7.org/fhir/StructureDefinition/MedicationAdministration)
+== fsh-generated/resources/MedicationAdministration-admin-maria-pm.json ==
+INFORMATION: MedicationAdministration/admin-maria-pm: MedicationAdministration.medication.ofType(CodeableConcept): Reference to draft CodeSystem https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication|0.2.0
+ERROR: MedicationAdministration/admin-maria-pm: MedicationAdministration.dosage: Constraint failed: mad-1: 'SHALL have at least one of dosage.dose or dosage.rate[x] (dose.exists() or rate.exists())' (defined in http://hl7.org/fhir/StructureDefinition/MedicationAdministration)
+== fsh-generated/resources/MedicationRequest-rx-ibuprofen-ana.json ==
+INFORMATION: MedicationRequest/rx-ibuprofen-ana: MedicationRequest.medication.ofType(CodeableConcept): Reference to draft CodeSystem https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication|0.2.0
+== fsh-generated/resources/MedicationRequest-rx-lisinopril-carlos.json ==
+INFORMATION: MedicationRequest/rx-lisinopril-carlos: MedicationRequest.medication.ofType(CodeableConcept): Reference to draft CodeSystem https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication|0.2.0
+== fsh-generated/resources/MedicationRequest-rx-metformin-maria.json ==
+INFORMATION: MedicationRequest/rx-metformin-maria: MedicationRequest.medication.ofType(CodeableConcept): Reference to draft CodeSystem https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication|0.2.0
+WARNING: MedicationRequest/rx-metformin-maria: MedicationRequest.dispenseRequest.quantity: UCUM Codes that contain human readable annotations like {tablet} can be misleading (e.g. they are ignored when comparing units). Best Practice is not to depend on annotations in the UCUM code, so this usage should be checked, and the Quantity.unit SHOULD contain the annotation
+== fsh-generated/resources/Observation-obs-adherence-ana.json ==
+INFORMATION: Observation/obs-adherence-ana: Observation.value.ofType(CodeableConcept): Reference to draft CodeSystem https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason|0.2.0
+WARNING: Observation/obs-adherence-ana: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated/resources/Observation-obs-adherence-carlos.json ==
+WARNING: Observation/obs-adherence-carlos: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated/resources/Observation-obs-adherence-maria.json ==
+WARNING: Observation/obs-adherence-maria: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated/resources/Patient-patient-adherent-maria.json ==
+WARNING: Patient/patient-adherent-maria: Patient.identifier[0].system: No definition could be found for URL value 'https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/patient-id'
+== fsh-generated/resources/Patient-patient-ae-ana.json ==
+WARNING: Patient/patient-ae-ana: Patient.identifier[0].system: No definition could be found for URL value 'https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/patient-id'
+== fsh-generated/resources/Patient-patient-forgetful-carlos.json ==
+WARNING: Patient/patient-forgetful-carlos: Patient.identifier[0].system: No definition could be found for URL value 'https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/patient-id'
+== fsh-generated/resources/Practitioner-practitioner-example.json ==
+WARNING: Practitioner/practitioner-example: Practitioner.identifier[0].system: No definition could be found for URL value 'https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/practitioner-id'
+== fsh-generated/resources/StructureDefinition-adherence-observation.json ==
+ERROR: StructureDefinition/adherence-observation: StructureDefinition.jurisdiction[2].coding[0].code: Unknown code 'EU' in the CodeSystem 'urn:iso:std:iso:3166' version '2018'
+INFORMATION: StructureDefinition/adherence-observation: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+== fsh-generated/resources/StructureDefinition-medication-administration-adherence.json ==
+ERROR: StructureDefinition/medication-administration-adherence: StructureDefinition.jurisdiction[2].coding[0].code: Unknown code 'EU' in the CodeSystem 'urn:iso:std:iso:3166' version '2018'
+== fsh-generated/resources/StructureDefinition-medication-request-adherence.json ==
+ERROR: StructureDefinition/medication-request-adherence: StructureDefinition.jurisdiction[2].coding[0].code: Unknown code 'EU' in the CodeSystem 'urn:iso:std:iso:3166' version '2018'
+== fsh-generated/resources/StructureDefinition-missed-dose-detail.json ==
+ERROR: StructureDefinition/missed-dose-detail: StructureDefinition.jurisdiction[2].coding[0].code: Unknown code 'EU' in the CodeSystem 'urn:iso:std:iso:3166' version '2018'
+== fsh-generated/resources/StructureDefinition-patient-adherence.json ==
+ERROR: StructureDefinition/patient-adherence: StructureDefinition.jurisdiction[2].coding[0].code: Unknown code 'EU' in the CodeSystem 'urn:iso:std:iso:3166' version '2018'
+== fsh-generated/resources/ValueSet-adherence-medication.json ==
+ERROR: ValueSet/adherence-medication: ValueSet.jurisdiction[2].coding[0].code: Unknown code 'EU' in the CodeSystem 'urn:iso:std:iso:3166' version '2018'
+WARNING: ValueSet/adherence-medication: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-adherence-observation-code.json ==
+ERROR: ValueSet/adherence-observation-code: ValueSet.jurisdiction[2].coding[0].code: Unknown code 'EU' in the CodeSystem 'urn:iso:std:iso:3166' version '2018'
+WARNING: ValueSet/adherence-observation-code: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-adherence-reason.json ==
+ERROR: ValueSet/adherence-reason: ValueSet.jurisdiction[2].coding[0].code: Unknown code 'EU' in the CodeSystem 'urn:iso:std:iso:3166' version '2018'
+WARNING: ValueSet/adherence-reason: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

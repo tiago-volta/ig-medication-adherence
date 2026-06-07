@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="adherence-observation-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem adherence-observation-code</b></p><a name="adherence-observation-code"> </a><a name="hcadherence-observation-code"> </a><p>This case-sensitive code system <code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">adherence-rate<a name="adherence-observation-code-adherence-rate"> </a></td><td>Medication adherence rate</td><td>Percentage of prescribed doses taken in a measurement period.</td></tr><tr><td style="white-space:nowrap">adherence-assessment<a name="adherence-observation-code-adherence-assessment"> </a></td><td>Adherence assessment</td><td>Coded summary of adherence status or primary non-adherence reason.</td></tr></table></div>
+  </text>
+  <url value="https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code"/>
+  <version value="0.2.0"/>
+  <name value="AdherenceObservationCodeCS"/>
+  <title value="Adherence Observation Codes (Illustrative)"/>
+  <status value="draft"/>
+  <date value="2026-06-07T14:22:39+00:00"/>
+  <publisher value="Tiago Volta"/>
+  <contact>
+    <name value="Tiago Volta"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/tiago-volta"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="tiagovolta2@gmail.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Tiago Volta"/>
+    <telecom>
+      <system value="email"/>
+      <value value="tiagovolta2@gmail.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Local code system for adherence-related observations. For learning and demonstration only."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="PT"/>
+      <display value="Portugal"/>
+    </coding>
+  </jurisdiction>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="EU"/>
+      <display value="European Union"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="CC0-1.0. Example terminology is illustrative only."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="adherence-rate"/>
+    <display value="Medication adherence rate"/>
+    <definition value="Percentage of prescribed doses taken in a measurement period."/>
+  </concept>
+  <concept>
+    <code value="adherence-assessment"/>
+    <display value="Adherence assessment"/>
+    <definition value="Coded summary of adherence status or primary non-adherence reason."/>
+  </concept>
+</CodeSystem>

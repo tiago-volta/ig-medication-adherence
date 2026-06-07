@@ -1,0 +1,18 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "practitioner-example",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner practitioner-example</b></p><a name=\"practitioner-example\"> </a><a name=\"hcpractitioner-example\"> </a><p><b>identifier</b>: <code>https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/practitioner-id</code>/practitioner-001</p><p><b>active</b>: true</p><p><b>name</b>: João Costa </p></div>"
+  },
+  "identifier" : [{
+    "system" : "https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/practitioner-id",
+    "value" : "practitioner-001"
+  }],
+  "active" : true,
+  "name" : [{
+    "family" : "Costa",
+    "given" : ["João"]
+  }]
+}

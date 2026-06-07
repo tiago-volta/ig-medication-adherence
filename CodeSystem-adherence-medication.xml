@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="adherence-medication"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem adherence-medication</b></p><a name="adherence-medication"> </a><a name="hcadherence-medication"> </a><p>This case-sensitive code system <code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">metformin<a name="adherence-medication-metformin"> </a></td><td>Metformin 500 mg tablet</td><td>Example oral antidiabetic for adherence scenarios.</td></tr><tr><td style="white-space:nowrap">lisinopril<a name="adherence-medication-lisinopril"> </a></td><td>Lisinopril 10 mg tablet</td><td>Example antihypertensive for adherence scenarios.</td></tr><tr><td style="white-space:nowrap">ibuprofen<a name="adherence-medication-ibuprofen"> </a></td><td>Ibuprofen 400 mg tablet</td><td>Example NSAID for adverse-event adherence scenarios.</td></tr></table></div>
+  </text>
+  <url value="https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication"/>
+  <version value="0.2.0"/>
+  <name value="AdherenceMedicationCS"/>
+  <title value="Example Medication Codes (Illustrative)"/>
+  <status value="draft"/>
+  <date value="2026-06-07T14:22:39+00:00"/>
+  <publisher value="Tiago Volta"/>
+  <contact>
+    <name value="Tiago Volta"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/tiago-volta"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="tiagovolta2@gmail.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Tiago Volta"/>
+    <telecom>
+      <system value="email"/>
+      <value value="tiagovolta2@gmail.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Local medication codes used in example instances. Not mapped to SNOMED or ATC."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="PT"/>
+      <display value="Portugal"/>
+    </coding>
+  </jurisdiction>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="EU"/>
+      <display value="European Union"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="CC0-1.0. Example terminology is illustrative only."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="metformin"/>
+    <display value="Metformin 500 mg tablet"/>
+    <definition value="Example oral antidiabetic for adherence scenarios."/>
+  </concept>
+  <concept>
+    <code value="lisinopril"/>
+    <display value="Lisinopril 10 mg tablet"/>
+    <definition value="Example antihypertensive for adherence scenarios."/>
+  </concept>
+  <concept>
+    <code value="ibuprofen"/>
+    <display value="Ibuprofen 400 mg tablet"/>
+    <definition value="Example NSAID for adverse-event adherence scenarios."/>
+  </concept>
+</CodeSystem>

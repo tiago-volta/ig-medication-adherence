@@ -1,0 +1,90 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "adherence-reason",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem adherence-reason</b></p><a name=\"adherence-reason\"> </a><a name=\"hcadherence-reason\"> </a><p>This case-sensitive code system <code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">forgot<a name=\"adherence-reason-forgot\"> </a></td><td>Forgot dose</td><td>Patient forgot to take the medication at the scheduled time.</td></tr><tr><td style=\"white-space:nowrap\">adverse-effects<a name=\"adherence-reason-adverse-effects\"> </a></td><td>Adverse effects</td><td>Patient stopped or skipped doses due to side effects.</td></tr><tr><td style=\"white-space:nowrap\">cost<a name=\"adherence-reason-cost\"> </a></td><td>Cost / affordability</td><td>Patient skipped doses due to medication cost.</td></tr><tr><td style=\"white-space:nowrap\">felt-better<a name=\"adherence-reason-felt-better\"> </a></td><td>Felt better</td><td>Patient stopped because symptoms improved.</td></tr><tr><td style=\"white-space:nowrap\">complex-regimen<a name=\"adherence-reason-complex-regimen\"> </a></td><td>Complex regimen</td><td>Regimen complexity led to missed doses.</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"adherence-reason-other\"> </a></td><td>Other reason</td><td>Other or unspecified non-adherence reason.</td></tr></table></div>"
+  },
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+  "version" : "0.2.0",
+  "name" : "AdherenceReasonCS",
+  "title" : "Non-Adherence Reason Codes (Illustrative)",
+  "status" : "draft",
+  "date" : "2026-06-07T14:22:39+00:00",
+  "publisher" : "Tiago Volta",
+  "contact" : [{
+    "name" : "Tiago Volta",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://github.com/tiago-volta"
+    },
+    {
+      "system" : "email",
+      "value" : "tiagovolta2@gmail.com"
+    }]
+  },
+  {
+    "name" : "Tiago Volta",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "tiagovolta2@gmail.com",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Local code system for common reasons of medication non-adherence. For learning and demonstration only; not a clinical standard.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "PT",
+      "display" : "Portugal"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "EU",
+      "display" : "European Union"
+    }]
+  }],
+  "copyright" : "CC0-1.0. Example terminology is illustrative only.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "forgot",
+    "display" : "Forgot dose",
+    "definition" : "Patient forgot to take the medication at the scheduled time."
+  },
+  {
+    "code" : "adverse-effects",
+    "display" : "Adverse effects",
+    "definition" : "Patient stopped or skipped doses due to side effects."
+  },
+  {
+    "code" : "cost",
+    "display" : "Cost / affordability",
+    "definition" : "Patient skipped doses due to medication cost."
+  },
+  {
+    "code" : "felt-better",
+    "display" : "Felt better",
+    "definition" : "Patient stopped because symptoms improved."
+  },
+  {
+    "code" : "complex-regimen",
+    "display" : "Complex regimen",
+    "definition" : "Regimen complexity led to missed doses."
+  },
+  {
+    "code" : "other",
+    "display" : "Other reason",
+    "definition" : "Other or unspecified non-adherence reason."
+  }]
+}

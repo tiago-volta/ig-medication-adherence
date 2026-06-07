@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="adherence-reason"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet adherence-reason</b></p><a name="adherence-reason"> </a><a name="hcadherence-reason"> </a><ul><li>Include all codes defined in <a href="CodeSystem-adherence-reason.html"><code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.2.0</span></li></ul></div>
+  </text>
+  <url value="https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-reason"/>
+  <version value="0.2.0"/>
+  <name value="AdherenceReasonVS"/>
+  <title value="Non-Adherence Reasons"/>
+  <status value="draft"/>
+  <date value="2026-06-07T14:22:39+00:00"/>
+  <publisher value="Tiago Volta"/>
+  <contact>
+    <name value="Tiago Volta"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/tiago-volta"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="tiagovolta2@gmail.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Tiago Volta"/>
+    <telecom>
+      <system value="email"/>
+      <value value="tiagovolta2@gmail.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Value set of illustrative reasons for missed or refused medication doses."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="PT"/>
+      <display value="Portugal"/>
+    </coding>
+  </jurisdiction>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="EU"/>
+      <display value="European Union"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="CC0-1.0. Example terminology is illustrative only."/>
+  <compose>
+    <include>
+      <system value="https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason"/>
+    </include>
+  </compose>
+</ValueSet>

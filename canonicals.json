@@ -1,0 +1,84 @@
+[{
+  "id" : "adherence-medication",
+  "type" : "CodeSystem",
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication",
+  "version" : "0.2.0",
+  "name" : "AdherenceMedicationCS"
+},
+{
+  "id" : "adherence-observation-code",
+  "type" : "CodeSystem",
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code",
+  "version" : "0.2.0",
+  "name" : "AdherenceObservationCodeCS"
+},
+{
+  "id" : "adherence-reason",
+  "type" : "CodeSystem",
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason",
+  "version" : "0.2.0",
+  "name" : "AdherenceReasonCS"
+},
+{
+  "id" : "medication-adherence",
+  "type" : "ImplementationGuide",
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/ImplementationGuide/medication-adherence",
+  "version" : "0.2.0",
+  "name" : "MedicationAdherence"
+},
+{
+  "id" : "adherence-observation",
+  "type" : "StructureDefinition",
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/StructureDefinition/adherence-observation",
+  "version" : "0.2.0",
+  "name" : "AdherenceObservation"
+},
+{
+  "id" : "medication-administration-adherence",
+  "type" : "StructureDefinition",
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/StructureDefinition/medication-administration-adherence",
+  "version" : "0.2.0",
+  "name" : "MedicationAdministrationAdherence"
+},
+{
+  "id" : "medication-request-adherence",
+  "type" : "StructureDefinition",
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/StructureDefinition/medication-request-adherence",
+  "version" : "0.2.0",
+  "name" : "MedicationRequestAdherence"
+},
+{
+  "id" : "missed-dose-detail",
+  "type" : "StructureDefinition",
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/StructureDefinition/missed-dose-detail",
+  "version" : "0.2.0",
+  "name" : "MissedDoseDetail"
+},
+{
+  "id" : "patient-adherence",
+  "type" : "StructureDefinition",
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/StructureDefinition/patient-adherence",
+  "version" : "0.2.0",
+  "name" : "PatientAdherence"
+},
+{
+  "id" : "adherence-medication",
+  "type" : "ValueSet",
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-medication",
+  "version" : "0.2.0",
+  "name" : "AdherenceMedicationVS"
+},
+{
+  "id" : "adherence-observation-code",
+  "type" : "ValueSet",
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-observation-code",
+  "version" : "0.2.0",
+  "name" : "AdherenceObservationCodeVS"
+},
+{
+  "id" : "adherence-reason",
+  "type" : "ValueSet",
+  "url" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-reason",
+  "version" : "0.2.0",
+  "name" : "AdherenceReasonVS"
+}]

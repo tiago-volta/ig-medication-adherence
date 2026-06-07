@@ -1,0 +1,35 @@
+{
+  "codeSystems" : [{
+    "url" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-medication",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "AdherenceMedicationVS",
+    "title" : "Example Medications",
+    "description" : "Illustrative medications referenced in the example instances.",
+    "systems" : ["https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication"]
+  },
+  {
+    "url" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-observation-code",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "AdherenceObservationCodeVS",
+    "title" : "Adherence Observation Codes",
+    "description" : "Codes for observations that measure or assess medication adherence.",
+    "systems" : ["https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-observation-code"],
+    "uses" : {
+    },
+    "StructureDefinition-adherence-observation.html" : "Observation of Medication Adherence"
+  },
+  {
+    "url" : "https://tiago-volta.github.io/ig-medication-adherence/ValueSet/adherence-reason",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "AdherenceReasonVS",
+    "title" : "Non-Adherence Reasons",
+    "description" : "Value set of illustrative reasons for missed or refused medication doses.",
+    "systems" : ["https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason"],
+    "uses" : {
+    },
+    "StructureDefinition-medication-administration-adherence.html" : "Medication Administration for Adherence Tracking"
+  }]
+}

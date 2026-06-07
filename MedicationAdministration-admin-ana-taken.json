@@ -1,0 +1,30 @@
+{
+  "resourceType" : "MedicationAdministration",
+  "id" : "admin-ana-taken",
+  "meta" : {
+    "profile" : ["https://tiago-volta.github.io/ig-medication-adherence/StructureDefinition/medication-administration-adherence"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: MedicationAdministration admin-ana-taken</b></p><a name=\"admin-ana-taken\"> </a><a name=\"hcadmin-ana-taken\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medication-administration-adherence.html\">Medication Administration for Adherence Tracking</a></p></div><p><b>status</b>: Completed</p><p><b>medication</b>: <span title=\"Codes:{https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication ibuprofen}\">Ibuprofen 400 mg tablet</span></p><p><b>subject</b>: <a href=\"Patient-patient-ae-ana.html\">Ana López  Female, DoB: 1972-07-22 ( https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/patient-id#patient-ae-ana)</a></p><p><b>effective</b>: 2025-06-04 09:00:00+0100</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Patient-patient-ae-ana.html\">Ana López  Female, DoB: 1972-07-22 ( https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/patient-id#patient-ae-ana)</a></td></tr></table><h3>Dosages</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Text</b></td></tr><tr><td style=\"display: none\">*</td><td>400 mg with breakfast</td></tr></table></div>"
+  },
+  "status" : "completed",
+  "medicationCodeableConcept" : {
+    "coding" : [{
+      "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication",
+      "code" : "ibuprofen"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/patient-ae-ana"
+  },
+  "effectiveDateTime" : "2025-06-04T09:00:00+01:00",
+  "performer" : [{
+    "actor" : {
+      "reference" : "Patient/patient-ae-ana"
+    }
+  }],
+  "dosage" : {
+    "text" : "400 mg with breakfast"
+  }
+}

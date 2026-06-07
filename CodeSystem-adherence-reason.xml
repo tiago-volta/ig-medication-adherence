@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="adherence-reason"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem adherence-reason</b></p><a name="adherence-reason"> </a><a name="hcadherence-reason"> </a><p>This case-sensitive code system <code>https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">forgot<a name="adherence-reason-forgot"> </a></td><td>Forgot dose</td><td>Patient forgot to take the medication at the scheduled time.</td></tr><tr><td style="white-space:nowrap">adverse-effects<a name="adherence-reason-adverse-effects"> </a></td><td>Adverse effects</td><td>Patient stopped or skipped doses due to side effects.</td></tr><tr><td style="white-space:nowrap">cost<a name="adherence-reason-cost"> </a></td><td>Cost / affordability</td><td>Patient skipped doses due to medication cost.</td></tr><tr><td style="white-space:nowrap">felt-better<a name="adherence-reason-felt-better"> </a></td><td>Felt better</td><td>Patient stopped because symptoms improved.</td></tr><tr><td style="white-space:nowrap">complex-regimen<a name="adherence-reason-complex-regimen"> </a></td><td>Complex regimen</td><td>Regimen complexity led to missed doses.</td></tr><tr><td style="white-space:nowrap">other<a name="adherence-reason-other"> </a></td><td>Other reason</td><td>Other or unspecified non-adherence reason.</td></tr></table></div>
+  </text>
+  <url value="https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-reason"/>
+  <version value="0.2.0"/>
+  <name value="AdherenceReasonCS"/>
+  <title value="Non-Adherence Reason Codes (Illustrative)"/>
+  <status value="draft"/>
+  <date value="2026-06-07T14:22:39+00:00"/>
+  <publisher value="Tiago Volta"/>
+  <contact>
+    <name value="Tiago Volta"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://github.com/tiago-volta"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="tiagovolta2@gmail.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Tiago Volta"/>
+    <telecom>
+      <system value="email"/>
+      <value value="tiagovolta2@gmail.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Local code system for common reasons of medication non-adherence. For learning and demonstration only; not a clinical standard."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="PT"/>
+      <display value="Portugal"/>
+    </coding>
+  </jurisdiction>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </jurisdiction>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="EU"/>
+      <display value="European Union"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="CC0-1.0. Example terminology is illustrative only."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="forgot"/>
+    <display value="Forgot dose"/>
+    <definition value="Patient forgot to take the medication at the scheduled time."/>
+  </concept>
+  <concept>
+    <code value="adverse-effects"/>
+    <display value="Adverse effects"/>
+    <definition value="Patient stopped or skipped doses due to side effects."/>
+  </concept>
+  <concept>
+    <code value="cost"/>
+    <display value="Cost / affordability"/>
+    <definition value="Patient skipped doses due to medication cost."/>
+  </concept>
+  <concept>
+    <code value="felt-better"/>
+    <display value="Felt better"/>
+    <definition value="Patient stopped because symptoms improved."/>
+  </concept>
+  <concept>
+    <code value="complex-regimen"/>
+    <display value="Complex regimen"/>
+    <definition value="Regimen complexity led to missed doses."/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other reason"/>
+    <definition value="Other or unspecified non-adherence reason."/>
+  </concept>
+</CodeSystem>

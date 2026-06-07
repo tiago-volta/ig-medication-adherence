@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicationRequest xmlns="http://hl7.org/fhir">
+  <id value="rx-lisinopril-carlos"/>
+  <meta>
+    <profile value="https://tiago-volta.github.io/ig-medication-adherence/StructureDefinition/medication-request-adherence"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: MedicationRequest rx-lisinopril-carlos</b></p><a name="rx-lisinopril-carlos"> </a><a name="hcrx-lisinopril-carlos"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-medication-request-adherence.html">Medication Request for Adherence Tracking</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>medication</b>: <span title="Codes:{https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication lisinopril}">Lisinopril 10 mg tablet</span></p><p><b>subject</b>: <a href="Patient-patient-forgetful-carlos.html">Carlos Pereira  Male, DoB: 1958-11-04 ( https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/patient-id#patient-forgetful-carlos)</a></p><p><b>authoredOn</b>: 2025-04-15</p><p><b>requester</b>: <a href="Practitioner-practitioner-example.html">Practitioner João Costa </a></p><p><b>reasonCode</b>: <span title="Codes:">Essential hypertension</span></p><blockquote><p><b>dosageInstruction</b></p><p><b>text</b>: Take 10 mg by mouth once daily in the morning</p><p><b>timing</b>: Once per 1 day</p><h3>DoseAndRates</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Dose[x]</b></td></tr><tr><td style="display: none">*</td><td>10 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemg = 'mg')</span></td></tr></table></blockquote></div>
+  </text>
+  <status value="active"/>
+  <intent value="order"/>
+  <medicationCodeableConcept>
+    <coding>
+      <system value="https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication"/>
+      <code value="lisinopril"/>
+    </coding>
+  </medicationCodeableConcept>
+  <subject>
+    <reference value="Patient/patient-forgetful-carlos"/>
+  </subject>
+  <authoredOn value="2025-04-15"/>
+  <requester>
+    <reference value="Practitioner/practitioner-example"/>
+  </requester>
+  <reasonCode>
+    <text value="Essential hypertension"/>
+  </reasonCode>
+  <dosageInstruction>
+    <text value="Take 10 mg by mouth once daily in the morning"/>
+    <timing>
+      <repeat>
+        <frequency value="1"/>
+        <period value="1"/>
+        <periodUnit value="d"/>
+      </repeat>
+    </timing>
+    <doseAndRate>
+      <doseQuantity>
+        <value value="10"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mg"/>
+      </doseQuantity>
+    </doseAndRate>
+  </dosageInstruction>
+</MedicationRequest>

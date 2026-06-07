@@ -1,0 +1,57 @@
+# medication-adherence#0.2.0: Medication Adherence — Learning Implementation Guide(en)
+
+## Pages
+
+* [Home](en/index.md)
+* [Changes](en/changes.md)
+* [Downloads](en/downloads.md)
+* [Artifacts Summary](en/artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Example Medication Codes (Illustrative)](en/CodeSystem-adherence-medication.md)
+* [Adherence Observation Codes (Illustrative)](en/CodeSystem-adherence-observation-code.md)
+* [Non-Adherence Reason Codes (Illustrative)](en/CodeSystem-adherence-reason.md)
+
+### ValueSets
+
+* [Example Medications](en/ValueSet-adherence-medication.md)
+* [Adherence Observation Codes](en/ValueSet-adherence-observation-code.md)
+* [Non-Adherence Reasons](en/ValueSet-adherence-reason.md)
+
+### Resource Profiles
+
+* [Observation of Medication Adherence](en/StructureDefinition-adherence-observation.md)
+* [Medication Administration for Adherence Tracking](en/StructureDefinition-medication-administration-adherence.md)
+* [Medication Request for Adherence Tracking](en/StructureDefinition-medication-request-adherence.md)
+* [Patient for Adherence Tracking](en/StructureDefinition-patient-adherence.md)
+
+### Extensions
+
+* [Missed Dose Detail](en/StructureDefinition-missed-dose-detail.md)
+
+### ImplementationGuides
+
+* [Medication Adherence — Learning Implementation Guide](en/ImplementationGuide-medication-adherence.md)
+
+### Examples
+
+* [allergy-aspirin-ana (AllergyIntolerance)](en/AllergyIntolerance-allergy-aspirin-ana.md)
+* [admin-ana-skipped (MedicationAdministration)](en/MedicationAdministration-admin-ana-skipped.md)
+* [admin-ana-taken (MedicationAdministration)](en/MedicationAdministration-admin-ana-taken.md)
+* [admin-carlos-missed (MedicationAdministration)](en/MedicationAdministration-admin-carlos-missed.md)
+* [admin-carlos-taken (MedicationAdministration)](en/MedicationAdministration-admin-carlos-taken.md)
+* [admin-maria-am (MedicationAdministration)](en/MedicationAdministration-admin-maria-am.md)
+* [admin-maria-pm (MedicationAdministration)](en/MedicationAdministration-admin-maria-pm.md)
+* [rx-ibuprofen-ana (MedicationRequest)](en/MedicationRequest-rx-ibuprofen-ana.md)
+* [rx-lisinopril-carlos (MedicationRequest)](en/MedicationRequest-rx-lisinopril-carlos.md)
+* [rx-metformin-maria (MedicationRequest)](en/MedicationRequest-rx-metformin-maria.md)
+* [obs-adherence-ana (Observation)](en/Observation-obs-adherence-ana.md)
+* [obs-adherence-carlos (Observation)](en/Observation-obs-adherence-carlos.md)
+* [obs-adherence-maria (Observation)](en/Observation-obs-adherence-maria.md)
+* [patient-adherent-maria (Patient)](en/Patient-patient-adherent-maria.md)
+* [patient-ae-ana (Patient)](en/Patient-patient-ae-ana.md)
+* [patient-forgetful-carlos (Patient)](en/Patient-patient-forgetful-carlos.md)
+* [practitioner-example (Practitioner)](en/Practitioner-practitioner-example.md)

@@ -1,0 +1,46 @@
+{
+  "resourceType" : "MedicationRequest",
+  "id" : "rx-ibuprofen-ana",
+  "meta" : {
+    "profile" : ["https://tiago-volta.github.io/ig-medication-adherence/StructureDefinition/medication-request-adherence"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: MedicationRequest rx-ibuprofen-ana</b></p><a name=\"rx-ibuprofen-ana\"> </a><a name=\"hcrx-ibuprofen-ana\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medication-request-adherence.html\">Medication Request for Adherence Tracking</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>medication</b>: <span title=\"Codes:{https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication ibuprofen}\">Ibuprofen 400 mg tablet</span></p><p><b>subject</b>: <a href=\"Patient-patient-ae-ana.html\">Ana López  Female, DoB: 1972-07-22 ( https://tiago-volta.github.io/ig-medication-adherence/NamingSystem/patient-id#patient-ae-ana)</a></p><p><b>authoredOn</b>: 2025-05-20</p><p><b>requester</b>: <a href=\"Practitioner-practitioner-example.html\">Practitioner João Costa </a></p><p><b>reasonCode</b>: <span title=\"Codes:\">Chronic knee pain</span></p><blockquote><p><b>dosageInstruction</b></p><p><b>text</b>: Take 400 mg by mouth three times daily with food</p><p><b>timing</b>: 3 per 1 day</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>400 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemg = 'mg')</span></td></tr></table></blockquote></div>"
+  },
+  "status" : "active",
+  "intent" : "order",
+  "medicationCodeableConcept" : {
+    "coding" : [{
+      "system" : "https://tiago-volta.github.io/ig-medication-adherence/CodeSystem/adherence-medication",
+      "code" : "ibuprofen"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/patient-ae-ana"
+  },
+  "authoredOn" : "2025-05-20",
+  "requester" : {
+    "reference" : "Practitioner/practitioner-example"
+  },
+  "reasonCode" : [{
+    "text" : "Chronic knee pain"
+  }],
+  "dosageInstruction" : [{
+    "text" : "Take 400 mg by mouth three times daily with food",
+    "timing" : {
+      "repeat" : {
+        "frequency" : 3,
+        "period" : 1,
+        "periodUnit" : "d"
+      }
+    },
+    "doseAndRate" : [{
+      "doseQuantity" : {
+        "value" : 400,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      }
+    }]
+  }]
+}
